@@ -115,4 +115,4 @@ From there, create or clone new git repositories for your coursework.
 
 ## More information
 
-Much more information about the systems we use in CS50, including links to many other resources, can be found on the [systems page]({{systems}}) of the course website.
+Much more information about the systems we use in CS50, including links to many other resources, can be found on the [systems page](https://github.com/CS50Dartmouth21FS1/home/blob/fall21s1/logistics/systems.md) of the course website.
