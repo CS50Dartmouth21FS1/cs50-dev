@@ -26,7 +26,8 @@ export LC_ALL=C
 ulimit -c unlimited
 
 # the following can protect against infinite loops with fork(), malloc(), etc.
-ulimit -t 900     # maximum CPU time in seconds
-ulimit -v 1000000 # maximum virtual memory in KBytes
-ulimit -u 1000    # maximum number of processes
+# and also help avoid Visual Studio Code from exhausting system resources
+ulimit -t unlimited    # maximum CPU time in seconds
+ulimit -v unlimited    # maximum virtual memory in KBytes
+# ulimit -u 1000    # maximum number of processes
 
